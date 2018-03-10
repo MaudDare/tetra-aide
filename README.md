@@ -1,14 +1,26 @@
 # Fabriquez vos propres Tetra-Aides en medium
 
-Il suffit d'acheter une plaque de medium (MDF) de 3mm d'épaisseur et de trouver un FabLab disposant d'une découpeuse laser.
+## L'histoire du Tetra-Aide
 
-## Le fichier de découpe
+Le Tétra-Aide est une idée originale de [Bruce DEMAUGÉ-BOST](http://bdemauge.free.fr/) professeur des écoles qui a mis en place ce projet dans sa classe afin d'avoir un indicateur visuel efficace pour connaître "l'état" de ses élèves notamment lors de travaux en autonomie (coin vert en haut: tout va bien, coin rouge en haut: j'ai une question urgente ...). Plus d'informations [ici](http://cpe.ac-dijon.fr/spip.php?article737).
+
+Le système semble bien fonctionner mais a l'inconvénient d'être fragile car en papier. Plusieurs personnes ont essayé de produire des modèles plus résistants (impression 3D...), vous en découvrirez certains en tapant le "mot dièze" [#tetraaide](https://twitter.com/hashtag/TetraAide)  sur Twitter.
+
+Comme vous pouvez le voir [PostClass](https://twitter.com/postclass_fr) prépare une version à acheter prète à monter.
+
+On propose ici tout ce qu'il faut pour ceux voulant fabriquer eux-mêmes des Tétra-Aides en MDF.
+
+## Comment fabriquer le tétraèdre ?
 
 ![fichier decoupe](decoupe/tetra-aide.svg)
 
-Voici [le fichier près à la découpe](decoupe/tetra-aide.dxf) (au format DXF), en noir les lignes à graver, en rouge celles à découper.
+Il suffit d'acheter une plaque de medium (MDF) de 3mm d'épaisseur et de trouver un FabLab disposant d'une découpeuse laser (comme le [FabLab de Lannion](http://fablab-lannion.org/)).
 
-Vous trouverez [ici le fichier source](decoupe/tetra-aide.svg) au format SVG créer avec Inkscape si vous voulez adapter le modèle.
+Voici [le fichier prêt à la découpe](decoupe/tetra-aide.dxf) (au format DXF), en noir les lignes à graver, en rouge celles à découper. Les "FabManager" vous guideront pour préparer la découpe.
+
+Le MDF 3mm est très peu cher, comptez 11€ la plaque de 1,2m sur 2,4m ... soit de quoi faire 150 Tétra-Aides ! Il faut ajouter comme coût le temps d'utilisation de la machine (5€ le quart d'heure au FabLab de Lannion).
+
+Vous trouverez [ici le fichier source](decoupe/tetra-aide.svg) au format SVG créé avec [Inkscape](https://inkscape.org/fr/) si vous voulez adapter le modèle.
 
 ## Comment mettre les couleurs ?
 
