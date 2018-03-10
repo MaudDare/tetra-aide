@@ -7,6 +7,7 @@
 	<title>Fabriquer vos Tetra-Aides</title>
 	<script src="https://cdn.rawgit.com/showdownjs/showdown/1.8.6/dist/showdown.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css">
 	<script>
 	showdown.setFlavor('github');
 	$.get("README.md", function( data ) {
@@ -19,31 +20,53 @@
 	</script>
 	<style>
 	body {
-	  background-color: #37abc8;
+	  background-color: #87cdde;
 	  color: white;
+	}
+	body a {
+	  color: #ffd42a;
+	  font-weight: bold;
+	}
+	h1 {
+	  border-top: 1px solid white;
+	  border-bottom: 1px solid white;
+	  text-align:center;
+	}
+	h2 {
+	  border-bottom: 1px dashed white;
+	  width:100%;
 	}
 	#gh-link a {
 	  text-decoration: none;
 	  color: white;
 	}
 	#gh-link {
-	  position: absolute;
+	  position: fixed;
 	  top: 2em;
 	  width: 14em;
 	  text-align: center;
 	  right: -3em;
-	  background-color: #f60;
+	  background-color: #ff2a2a;
 	  font-weight: bold;
 	  transform: rotate(45deg);
 	}
 	#mdcontent {
+	  padding: 0.5em 5px 0.5em 5px;
+	  border-left: 4px solid #006680;
+	  border-right: 4px solid #006680;
+	  background-color: #0088aa;
 	  margin-left: 10%;
 	  width: 80%;
+	}
+	#mdcontent img{
+	  background-color: white;
+	  text-align: center;
+	  width: 90%;
 	}
 	</style>
   </head>
   <body>
-	<div id="gh-link"><a href="">Contribuer<br/>sur GitHub</a></div>
+	<div id="gh-link"><a href="https://github.com/MaudDare/tetra-aide">Contribuer<br/>sur GitHub</a></div>
 	<div id="mdcontent"></div>
   </body>
 </html>
