@@ -8,15 +8,21 @@
 	<script src="https://cdn.rawgit.com/showdownjs/showdown/1.8.6/dist/showdown.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css">
-	<script>
+	<script> 
 	showdown.setFlavor('github');
-	$.get("README.md", function( data ) {
-	  var converter = new showdown.Converter(),
+	$.get("README.md", data => {
+	  const converter = new showdown.Converter(),
 		text      = data,
 		html      = converter.makeHtml(text);
 	  $("#mdcontent").html(html);
 	});
-
+	$(function() {
+	  const url = window.location.href;
+	  if (m=url.match(/https?:\/\/([^.]*)\.github\.io\/(.*)$/)) {
+		const github_url = `https://github.com/${m[1]}/${m[2]}`;
+		$("#gh-link a").attr("href", github_url);
+	  }
+	});
 	</script>
 	<style>
 	body {
@@ -60,13 +66,12 @@
 	}
 	#mdcontent img{
 	  background-color: white;
-	  text-align: center;
-	  width: 90%;
+	  width: 100%;
 	}
 	</style>
   </head>
   <body>
-	<div id="gh-link"><a href="https://github.com/MaudDare/tetra-aide">Contribuer<br/>sur GitHub</a></div>
+	<div id="gh-link"><a href="https://github.com">Contribuer<br/>sur GitHub</a></div>
 	<div id="mdcontent"></div>
   </body>
 </html>
