@@ -4,7 +4,7 @@
 
 ## L'histoire du Tetra-Aide
 
-Le Tétra-Aide est une idée originale de [Bruce DEMAUGÉ-BOST](http://bdemauge.free.fr/) professeur des écoles qui a mis en place ce projet dans sa classe afin d'avoir un indicateur visuel efficace pour connaître "l'état" de ses élèves notamment lors de travaux en autonomie (coin vert en haut: tout va bien, coin rouge en haut: j'ai une question urgente ...). Plus d'informations [ici](http://cpe.ac-dijon.fr/spip.php?article737).
+Le [Tétra-Aide](http://bdemauge.free.fr/tetraaide.pdf) est une idée originale de [Bruce DEMAUGÉ-BOST](http://bdemauge.free.fr/) professeur des écoles qui a mis en place ce projet dans sa classe afin d'avoir un indicateur visuel efficace pour connaître "l'état" de ses élèves notamment lors de travaux en autonomie (coin vert en haut: tout va bien, coin rouge en haut: j'ai une question urgente ...). Plus d'informations [ici](http://cpe.ac-dijon.fr/spip.php?article737).
 
 Le système semble bien fonctionner mais a l'inconvénient d'être fragile car en papier. Plusieurs personnes ont essayé de produire des modèles plus résistants (impression 3D...), vous en découvrirez certains en tapant le "mot dièze" [#tetraaide](https://twitter.com/hashtag/TetraAide)  sur Twitter.
 
@@ -45,6 +45,10 @@ Ces fichiers peuvent être utilisés pour créer des autocollants (voir avec un 
 L'emboitement n'étant pas parfait, il faut mieux utiliser de la colle pour avoir un tetraèdre solide. Pour cela de la colle liquide blanche standard fera l'affaire.
 
 ![collage](https://user-images.githubusercontent.com/33450106/37252776-b93a0d78-2527-11e8-8603-03a7206f17ce.jpg)
+
+## Affichages
+
+Voici une [proposition d'affiche à destination des élèves](./affiche.pdf), si vous voulez la modifier voici [le fichier SVG](./affiche.svg) éditable avec [Inkscape](https://inkscape.org/fr/).
 
 ## Licence
 
