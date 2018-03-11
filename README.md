@@ -1,4 +1,4 @@
-# Fabriquez vos propres Tetra-Aides en mediu
+# Fabriquez vos propres Tetra-Aides en medium
 
 ![tetraaides-finis](https://user-images.githubusercontent.com/33450106/37252777-bf15b9cc-2527-11e8-9beb-96bf0ed6e54a.jpg)
 
